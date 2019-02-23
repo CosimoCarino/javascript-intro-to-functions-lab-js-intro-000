@@ -11,12 +11,12 @@ function logWhisper(string) {
   if('HELLO') {console.log('hello')}
 }
 function sayHiToGrandma(string) {
-  if ("hello") {
+  if (string === "hello") {
     return "I can't hear you!"}
-    else if ("HELLO") {
+    else if (string === "HELLO") {
       return "YES INDEED!"
     }
-    else if ("I love you, Grandma.") {
-      return "I love you, too."
-    }}
+    else if (string === "I love you, Grandma.") {
+      return "I love you, too." }
+}
     
